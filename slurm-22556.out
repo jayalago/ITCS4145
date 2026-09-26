@@ -1,0 +1,5 @@
+gcc  -O3 -std=c11 -Wall -Wextra  -o sweep_bandwidth src/sweep_bandwidth.c
+src/sweep_bandwidth.c: In function ‘main’:
+src/sweep_bandwidth.c:44:16: warning: unused variable ‘max’ [-Wunused-variable]
+   44 |         double max = branchless_max(arr, n);
+      |                ^~~
